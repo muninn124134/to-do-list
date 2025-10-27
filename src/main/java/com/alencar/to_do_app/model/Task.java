@@ -17,6 +17,11 @@ public class Task {
     private String description;
     private boolean isDone = false;
 
+    public Task(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
+
     public String getTitle() {
         return title;
     }
